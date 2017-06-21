@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	position: relative;
+	margin: 0 auto;
+	width: 900px;
+}
+header{
+	margin-top: 30px;
+}
+h1{
+	display: inline-block;
+}
+.unsubscribe_opstion{
+	position: absolute;
+	right: 0px;
+	top:30px;
+	text-transform: uppercase;
+}
+.main_message{
+	padding: 30px;
+	background-color: #3E4884;
+	font-family: sans-serif;
+}
+h2{
+	padding-bottom: 30px;
+	color:#ffffff;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+.main_message>p{
+	padding-bottom: 30px
+}
+.main_message>button{
+	padding: 15px 32px;
+	border: none;
+	background-color: #07214B;
+	color:white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.img_section{
+	position: relative;
+	margin-top: 30px;
+}
+.sub_message{
+	position: absolute;
+	padding: 20px;
+	background-color: #6AF53B;
+	display: inline;
+	font-family: sans-serif;
+	width: 200px;
+}
+h3{
+	padding-bottom: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+.sub_message>p{
+	padding-bottom: 20px;
+}
+.sub_message>button{
+	padding: 15px 32px;
+	background-color: #28770D;
+	border: none;
+	color:white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.big_img{
+	float: right;	
+}
+.big_img>img{
+	height: 490px;
+	width: 620px;
+}
+.any_img{
+	position: absolute;
+	margin-top: 30px;
+	bottom: 0;
+	top: 239px;
+}
+.any_img>img{
+	height: 220px;
+	width: 240px;
+}
+.social_site{
+	margin: 20px 0px 20px 0px;
+	display: inline-block;
+	list-style-type: none;
+}
+.social_site > li{
+	display: inline-block;
+}
+.social_site > li >a >img{
+	width: 207px;
+}
+#pinterest{
+	margin-right: 20px;
+}
+#twitter{
+	margin-right: 20px;
+}
+#wifi{
+	margin-right: 20px;
+}
+p{
+	color:#ffffff;
+}
+a{
+	text-decoration: none;	
+}

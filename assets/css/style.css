@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h1{text-align: center;}
+.discription{
+	padding: 35px;
+	background-color: #f2f2f2;
+	text-align: center;
+	font-size: 18px;
+}
+
+section{
+	margin: 50px auto;
+	max-width: 900px;
+}
+
+h2{
+	padding: 15px 100px;
+	background-color: #f2f2f2;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+main div{	
+    position: relative;
+    width: 35%;
+	height: 230px;
+    margin-top: 50px;
+    -webkit-transition: 1.5s all ease-in-out;
+    -o-transition: 1.5s all ease-in-out;
+    transition: 1.5s all ease-in-out;
+    display: inline-block;
+}
+main div h3{
+	margin-top: 230px;
+	text-align: center;
+	padding: 5%;
+	display: inline-block;
+}
+.first_work h3{margin-left: 15%;}
+.second_work h3{margin-left: 40%;}
+.third_work h3{margin-left: 25%;}
+.fourth_work h3{margin-left: 40%;}
+.first_work{
+	background: url(../image/first.jpg);
+	background-position: top center;
+    background-size: 200%;
+}
+.second_work{
+	background: url(../image/second.jpg);
+	background-position: top center;
+    background-size: 100%;
+    float: right;
+}
+.third_work{
+	background: url(../image/third.jpg);
+	background-position: top center;
+    background-size: 100%;
+}
+.fourth_work{
+	background: url(../image/fouth.jpg);
+	background-position: top center;
+    background-size: 130%;
+    float: right;
+}
+main div:hover{
+background-position: center bottom;    	
+}
+@media screen and (min-width:420px) and (max-width:625px) {
+main div{
+	width: 90%;
+	background-color: #fcf;
+}	
+}
+figure{
+	display: inline;
+	position: absolute;
+	top: 0;
+	border: 0;
+	left: 0;
+	right: 0;
+}
+
+footer{
+	background-color: #355c7d;
+	padding: 20px 40PX;
+	font-size: 15px;
+}
+ul{text-align: center;}
+li{display: inline-block;}
+a{text-decoration: none;}
+footer a{
+	color: #ffffff;
+	text-transform: uppercase;
+}
+footer p{
+	font-size: 10px;
+	padding-top: 6px;
+	color: #ffffff;
+	text-align: center;
+}
+figcaption > p{
+	color:transparent;
+}
+article:hover figcaption > p{
+	transition: all 600ms ease-in-out; 
+	color:#111;
+}
